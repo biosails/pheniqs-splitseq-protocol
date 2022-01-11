@@ -1,0 +1,14 @@
+STAR \
+--runThreadN 16 \
+--readFilesCommand bzcat \
+--genomeDir /media/terminus/home/lg/split-seq-data/index/mm10_hg38 \
+--soloFeatures Gene \
+--readFilesPrefix /home/lg/split-seq-data/raw_fastq/ \
+--readFilesIn SRR6750056_1.fastq.bz2 SRR6750056_2.fastq.bz2 \
+--soloType CB_UMI_Complex \
+--soloCBwhitelist /home/lg/code/moonwatcher/pheniqs-split-pool/raw/cb_whitelist /home/lg/code/moonwatcher/pheniqs-split-pool/raw/cb_whitelist /home/lg/code/moonwatcher/pheniqs-split-pool/raw/cb_whitelist \
+--soloCBposition 0_10_0_17 0_48_0_55 0_86_0_93 \
+--soloUMIposition 0_0_0_9 \
+--soloCBmatchWLtype 1MM \
+--outSAMtype BAM SortedByCoordinate \
+--outSAMattributes CR CY UR UY GX GN CB UB sM sS sQ \

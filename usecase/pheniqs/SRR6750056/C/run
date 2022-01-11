@@ -1,0 +1,19 @@
+STAR \
+--runThreadN 16 \
+--readFilesCommand "pheniqs mux --threads 12 --config splitseq_adjusted.json --output /dev/stdout --sense-input --input" \
+--genomeDir /media/terminus/home/lg/split-seq-data/index/mm10_hg38 \
+--soloFeatures Gene \
+--readFilesIn /home/lg/split-seq-data/raw_cram/SRR6750056.cram \
+--soloType CB_UMI_Simple \
+--soloCBwhitelist None \
+--soloBarcodeMate 2 \
+--soloCBlen 24 \
+--soloUMIlen 10 \
+--soloUMIstart 25 \
+--soloInputSAMattrBarcodeSeq CB RX \
+--soloInputSAMattrBarcodeQual CY QX \
+--soloCBmatchWLtype Exact \
+--readFilesType SAM SE \
+--outSAMtype BAM SortedByCoordinate \
+--readFilesSAMattrKeep RX QX CB CR CY XC \
+--outSAMattributes GX GN CB UB sM sS sQ \
