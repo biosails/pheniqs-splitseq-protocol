@@ -7,3 +7,5 @@
 * [Annotating cell types in human single-cell RNA-seq data with CellO](https://star-protocols.cell.com/protocols/945)
 * [Analysis workflow of publicly available RNA-sequencing datasets](https://star-protocols.cell.com/protocols/931)
 * [Construction of transcriptional regulatory networks using total RNA-seq data](https://star-protocols.cell.com/protocols/960)
+
+[Template](https://secure.jbs.elsevierhealth.com/pb-assets/journals/EM/STAR%20Protocols/CellPress_STARProtocolsTemplate.docx)
